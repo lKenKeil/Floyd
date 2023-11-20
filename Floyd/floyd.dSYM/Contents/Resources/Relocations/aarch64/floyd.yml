@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Volumes/Crucial X6/Data Structure/Floyd/floyd'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _floydWarshall, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0x1BC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _floydWarshall, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0x1BC }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _printShortestPath, symObjAddr: 0x1BC, symBinAddr: 0x100003AA8, symSize: 0xC0 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _printResult, symObjAddr: 0x27C, symBinAddr: 0x100003B68, symSize: 0xE0 }
+  - { offsetInCU: 0x10F, offset: 0x10F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x35C, symBinAddr: 0x100003C48, symSize: 0xDC }
+...
